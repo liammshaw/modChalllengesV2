@@ -1,12 +1,16 @@
 package modChallengesV2;
-
+import java.util.Scanner;
 public class modChallengesV2
 	{
 
 		public static void main(String[] args)
 			{
-				// TODO Auto-generated method stub
-
+				showModChallengeOne();
 			}
-
+		public static void showModChallengesOne()
+			{
+				Scanner userInput = new Scanner(System.in);
+				int leapYear = userInput.nextInt();
+				
+			}
 	}
