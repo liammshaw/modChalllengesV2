@@ -5,7 +5,8 @@ public class modChallengesV2
 
 		public static void main(String[] args)
 			{
-				showModChallengeOne();
+				//showModChallengeOne();
+				showFizzBuzz();
 			}
 		public static void showModChallengeOne()
 			{
@@ -16,8 +17,31 @@ public class modChallengesV2
 					{
 						System.out.println("It's a leap year!");
 					}
-				else {
+				else 
+					{
 					System.out.println("It's not a leap year!");
-				}
+					}
+			}
+		public static void showFizzBuzz()
+			{
+				for (int i = 1; i <= 100; i++)
+					{
+						if (i % 3 == 0 && i % 5 ==0 )
+							{
+								System.out.println("FizzBuzz");
+							}
+						else if (i % 5 == 0)
+							{
+								System.out.println("Buzz");
+							}
+						else if (i % 3 == 0)
+							{
+								System.out.println("Fizz");
+							}
+						else
+							{
+								System.out.println(i);
+							}
+					}
 			}
 	}
